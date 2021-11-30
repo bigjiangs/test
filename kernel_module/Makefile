@@ -8,4 +8,4 @@ all:
 	$(MAKE) -C $(KERNEL_SRC) M=$(PWD) modules
 
 clean:
-	rm *.ko rm *.o
+	rm *.ko *.o
